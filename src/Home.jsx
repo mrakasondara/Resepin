@@ -56,7 +56,7 @@ const Home =()=>{
 				)}
 			<h1 className="text-xl font-bold my-[2rem]">{active} Category</h1>
 				{!isLoadingRecipe &&(
-					<div className="w-full grid grid-cols-3 md:grid-cols-5 gap-[20px] lg:gap-[40px] my-[2rem]">
+					<div className="w-full grid grid-cols-3 md:grid-cols-4 gap-[20px] lg:gap-[30px] my-[2rem]">
 						{recipes && recipes.map(recipe=>(
 							<RecipeItem {...recipe} key={recipe.idMeal}/>
 						))}

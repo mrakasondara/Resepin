@@ -1,6 +1,5 @@
 import React,{useState} from 'react'
 import Skeleton from '@mui/material/Skeleton'
-import Stack from '@mui/material/Stack'
 const SkeletonRecipes = (props)=>{
 	return(
 		<div className="w-full flex justify-center">
