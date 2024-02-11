@@ -2,13 +2,13 @@ import React,{useState, useEffect} from 'react'
 import {Link,useParams} from 'react-router-dom'
 import {Breadcrumbs} from '@mui/material'
 import Skeleton from '@mui/material/Skeleton'
-import SkeletonHero from './Skeleton/SkeletonHero'
-import SkeletonDetail from './Skeleton/SkeletonDetail'
-import SkeletonIngredients from './Skeleton/SkeletonIngredients'
-import SkeletonYoutube from './Skeleton/SkeletonYoutube'
+import SkeletonHero from '../Skeleton/SkeletonHero'
+import SkeletonDetail from '../Skeleton/SkeletonDetail'
+import SkeletonIngredients from '../Skeleton/SkeletonIngredients'
+import SkeletonYoutube from '../Skeleton/SkeletonYoutube'
 
 
-const Recipe = ({handlerClick})=>{
+const RecipeDetail = ({handlerClick})=>{
 	const [meal,setMeal] = useState({})
 	const [ingredients,setIngredients] = useState({}) 
 	const [isLoading,setIsLoading] = useState(true)
@@ -120,4 +120,4 @@ const Recipe = ({handlerClick})=>{
 		</div>
 		)
 }
-export default Recipe
+export default RecipeDetail

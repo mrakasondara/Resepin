@@ -1,9 +1,8 @@
 import React,{useState,useEffect} from 'react'
-import axios from 'axios'
 import MenuItem from './MenuItem'
 import RecipeItem from './RecipeItem'
-import SkeletonMenu from './Skeleton/SkeletonMenu'
-import SkeletonRecipes from './Skeleton/SkeletonRecipes'
+import SkeletonMenu from '../Skeleton/SkeletonMenu'
+import SkeletonRecipes from '../Skeleton/SkeletonRecipes'
 
 const Home =()=>{
 	const [recipes,setRecipes] = useState({})
