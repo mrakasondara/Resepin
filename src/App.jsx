@@ -1,7 +1,7 @@
 import  React from 'react'
 import {Routes, Route} from 'react-router-dom'
 import Layout from './Layout'
-import Home from './Home'
+import Home from './Content/Home'
 import RecipeDetail from './Content/RecipeDetail'
 import UserContextProvider from './UserContext'
 function App() {
